@@ -2,9 +2,14 @@ import os
 from django.conf import settings
 import matplotlib.pyplot as plt
 
-def save_img(plot_img_path):
-    image_path = os.path.join(settings.MEDIA_ROOT, plot_img_path)
-    plt.savefig(image_path)
+def save_img(filename):
+    media_path = os.path.join(settings.MEDIA_ROOT, filename)
+
+    # folder auto create (important)
+    os.makedirs(settings.MEDIA_ROOT, exist_ok=True)
+
+    plt.savefig(media_path)
     plt.close()
-    image_url = settings.MEDIA_URL + plot_img_path
-    return image_url
+
+    # ✅ return correct URL
+    return settings.MEDIA_URL + filename
