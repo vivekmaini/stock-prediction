@@ -421,7 +421,7 @@ const styles = {
     maxWidth: 1400,
     margin: '0 auto',
     padding: '2rem',
-    minHeight: '100vh',              // 🔥 full screen height
+    minHeight: '100vh',              //  full screen height
     display: 'flex',
     flexDirection: 'column',
      paddingTop: '1rem',
@@ -433,7 +433,7 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: '100px', 
-    marginBottom:'30px'  // ✅ safe spacing
+    marginBottom:'30px'  //  safe spacing
 },
 
   form: {
@@ -441,7 +441,7 @@ const styles = {
     gap: 12,
     width: '100%',
     maxWidth: '600px', 
-    flexWrap: 'wrap',               // 🔥 controlled width
+    flexWrap: 'wrap',               //  controlled width
 },
 
    input: {
@@ -471,7 +471,7 @@ const styles = {
 
    errorMsg: {
 
-    width: '100%',        // 🔥 NEW LINE FORCE
+    width: '100%',        //  NEW LINE FORCE
 
     marginTop: 6,
 
@@ -486,7 +486,7 @@ const styles = {
    results: {
     display: 'flex',
     flexDirection: 'column',
-    gap: '1.2rem'   // 🔥 tighter spacing
+    gap: '1.2rem'   //  tighter spacing
 },
 
     signalBar: {
@@ -496,9 +496,9 @@ const styles = {
     gap: 14,
     padding: '10px 18px',
     
-    maxWidth: '500px',   // 🔥 width control
+    maxWidth: '500px',   //  width control
     width: '100%',
-    margin: '0 auto',    // 🔥 center
+    margin: '0 auto',    //  center
     
     background: '#1a1a1a',
     border: '1px solid #2a2a2a',
@@ -520,7 +520,7 @@ const styles = {
 
     metricGrid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(4, 1fr)',   // 🔥 fixed layout (not auto-fit)
+    gridTemplateColumns: 'repeat(4, 1fr)',   //  fixed layout (not auto-fit)
     gap: 16,
     transform: 'translateX(100px)',
      
@@ -548,7 +548,7 @@ const styles = {
 
    chartGrid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(2, 1fr)',   // 🔥 stable layout
+    gridTemplateColumns: 'repeat(2, 1fr)',   //  stable layout
     gap: '20px',
 },
 
@@ -558,7 +558,7 @@ const styles = {
         borderRadius: 16,
         overflow: 'hidden',
         boxShadow: '0 8px 25px rgba(0,0,0,0.45)',
-        minHeight: 260, // 🔥 height base fix
+        minHeight: 260, //  height base fix
         paddingBottom: '10px',
     },
 
